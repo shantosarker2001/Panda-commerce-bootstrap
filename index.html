@@ -11,7 +11,7 @@
 
 <body>
     <header class="container">
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg fixed-top bg-light">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="">
@@ -27,13 +27,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Bagpack</a>
+                            <a class="nav-link" href="#bagpack">Bagpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#subsc">Subscribe</a>
                         </li>
                     </ul>
 
@@ -72,7 +72,7 @@
                                         do amet sint. Velit officia consequat duis enim velit mollit.
                                         Exercitation veniam consequat sunt nostrud amet.</p>
                                     <h1>$1289</h1>
-                                    <div class="btn btn-warning">Buy Now</div>
+                                    <div class="btn btn-info">Buy Now</div>
                                 </div>
 
                             </div>
@@ -92,7 +92,7 @@
                                         much
                                         painfull for us.</p>
                                     <h1>$800</h1>
-                                    <div class="btn btn-warning">Buy Now</div>
+                                    <div class="btn btn-info">Buy Now</div>
                                 </div>
 
                             </div>
@@ -153,7 +153,7 @@
         <!-- End categoris -->
 
         <!-- Shoes section start -->
-        <section class="container my-5">
+        <section class="container my-5" id="shoes">
             <h2>Shoes</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -206,7 +206,7 @@
         <!-- Shoes section End -->
 
         <!-- Bagpack section start -->
-        <section class="container my-5">
+        <section class="container my-5" id="bagpack">
             <h2>Backpack</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -256,8 +256,30 @@
             </div>
         </section>
         <!-- Bagpack section End -->
-    </main>
 
+        <!-- Subscribe section Start-->
+
+        <section class="mt-5" id="subscribe">
+            <div style="height:350px;"
+                class="container rounded d-flex align-items-center justify-content-center bg-info">
+                <div>
+                    <h2 class="text-uppercase">Lets stay in touch</h2>
+                    <p>Get updates sales,specials and more</p>
+                    <form>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email address.....">
+
+                            <button type="submit" class="btn btn-outline-light mt-3">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- Subscribe section End -->
+    </main>
+    <footer class="mt-5 text-center fw-semibold">
+        <p class="">&copy;2022 All rights reserved by Panda commerce.</p>
+    </footer>
 
 
 
